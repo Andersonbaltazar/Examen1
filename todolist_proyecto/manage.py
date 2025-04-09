@@ -1,8 +1,10 @@
 #!/usr/bin/env python
 """Django's command-line utility for administrative tasks."""
-import os
 import sys
+import os
 
+# Asegúrate de que la carpeta 'src' esté en el sys.path
+sys.path.append(os.path.join(os.path.dirname(__file__), 'src'))
 
 def main():
     """Run administrative tasks."""
